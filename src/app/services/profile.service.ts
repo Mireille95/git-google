@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient ,HttpHeaders} from '@angular/common/http';
 
- @Injectable()
- 
+ @Injectable({ providedIn: 'root'})
+
+
   export class ProfileService {
   private username:string;
   private access_token ='f603cfa5afa1d31a966fecacd928a1ab2b9f2b15';
