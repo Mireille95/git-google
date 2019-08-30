@@ -4,7 +4,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
-  { path: 'profile', component: ProfileComponent},
+  { path: '/components/profile', component: ProfileComponent},
   { path: 'about', component: AboutComponent},
 ];
 @NgModule({
