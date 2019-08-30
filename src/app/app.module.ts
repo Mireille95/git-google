@@ -10,6 +10,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { StrikethroughDirective } from './strikethrough.directive';
     AboutComponent,
     NavbarComponent,
     StrikethroughDirective,
+    DateCountPipe,
     
    
   ],
